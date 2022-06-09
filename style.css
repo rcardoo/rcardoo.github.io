@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+body{
+    background-color:white ;
+}
+
+.main{
+    font-family: Montserrat;
+    color: white;
+    background-color: #012030;
+    padding: 50px;
+    text-align: center;
+}
+h2{
+    font-family: sans-serif;
+    color: #13678A ;
+    
+}
+
+.picture{
+    border-radius: 8%;
+}
+
+li{
+    list-style-type: none;
+    font-family: sans-serif;
+    color: #012030 ;
+  
+
+}
+
+.conexao{
+    text-align: center;
+}
+
+.icons{
+    width: 40px;
+}
+
+p{
+    color: #012030;
+    text-align: center;
+}
+
+.home-bottom{
+    border-radius: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: #012030;
+}
