@@ -41,3 +41,12 @@ p{
     color: #012030;
     text-align: center;
 }
+
+.home-bottom{
+    border-radius: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: #012030;
+}
