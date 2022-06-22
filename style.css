@@ -6,7 +6,7 @@
 }
 
 #cabecalho{
-    background-image: url(assets/back.jpg);
+     background-image: url(assets/back.jpg);
      background-size: cover;
      height: 500px;  
 }
@@ -45,6 +45,7 @@
 #linkedin-botao:hover{
     background-color: #0A66C2;
     color: white;
+    transition: 0.5s;
 }
 
 #github-botao{
@@ -59,4 +60,35 @@
 #github-botao:hover{
     background-color: rgb(43, 42, 42);
     color: white;
+    transition: 0.5s;
+}
+
+#sobre-mim{
+    font-family: monospace;
+    font-weight: bolder; 
+    color: rgb(26, 25, 25);
+    margin: 50px;
+    text-align: center;
+    background-color: #ecebeb;
+    padding: 50px;
+    border-radius: 5px;
+    
+}
+
+#sobre-mim:active{
+    transition: 1s;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+
+#clique{
+    margin-top: 20px;
+}
+
+main h2{
+    font-family: monospace;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(26, 25, 25);
 }
