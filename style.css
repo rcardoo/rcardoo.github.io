@@ -1,52 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&display=swap');
 
-body{
-    background-color:white ;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-.main{
-    font-family: Montserrat;
+#cabecalho{
+    background-image: url(assets/back.jpg);
+     background-size: cover;
+     height: 500px;  
+}
+
+#cabecalho h1{
     color: white;
-    background-color: #012030;
-    padding: 50px;
-    text-align: center;
-}
-h2{
-    font-family: sans-serif;
-    color: #13678A ;
-    
+    text-align: left;
+    position: relative;
+    top: 250px;
+    margin-left: 30px;
+    font-size: 100px;
+    font-family:monospace;
 }
 
-.picture{
-    border-radius: 8%;
+.nav-style{
+    position: relative;
+    top: 300px;
+    margin-left: 30px;
 }
 
-li{
-    list-style-type: none;
-    font-family: sans-serif;
-    color: #012030 ;
-  
-
+.logo-style{
+    width: 20px;
+    vertical-align: bottom;
+    padding-right: 5px;
 }
 
-.conexao{
-    text-align: center;
-}
-
-.icons{
-    width: 40px;
-}
-
-p{
-    color: #012030;
-    text-align: center;
-}
-
-.home-bottom{
-    border-radius: 15%;
+#linkedin-botao{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 2px;
     text-decoration: none;
-    text-align: center;
-    padding: 15px;
+    font-family: monospace;
+    margin: 10px;
+}
+
+#linkedin-botao:hover{
+    background-color: #0A66C2;
     color: white;
-    background-color: #012030;
+}
+
+#github-botao{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+#github-botao:hover{
+    background-color: rgb(43, 42, 42);
+    color: white;
 }
